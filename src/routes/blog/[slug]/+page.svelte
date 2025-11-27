@@ -71,6 +71,8 @@
         property="og:image"
         content={`https://planetint.vercel.app${data.post.meta.thumbnail}`}
     />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="article:published_time" content={data.post.meta.date} />
     <meta property="article:author" content="Planetary Intelligence" />
     {#if data.post.meta.tags}

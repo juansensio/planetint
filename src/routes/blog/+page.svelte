@@ -58,6 +58,8 @@
   <meta property="og:url" content="https://planetint.vercel.app/blog" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://planetint.vercel.app/logo.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
   <!-- Twitter -->
   <meta property="twitter:title" content="Blog - Planetary Intelligence" />
@@ -79,7 +81,7 @@
 
 <div class="flex flex-col gap-4 w-full max-w-6xl mx-auto px-4 my-12">
   <Breadcrumbs items={breadcrumbItems} />
-  <h2 class="text-2xl font-bold dark:text-white">Blog</h2>
+  <h1 class="text-2xl font-bold dark:text-white">Blog</h1>
   <!-- <div class="flex flex-row gap-4 flex-wrap w-full">
         {#each data.tags as tag}
             <p>{tag}</p>

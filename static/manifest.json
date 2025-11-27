@@ -1,0 +1,17 @@
+{
+    "name": "Planetary Intelligence",
+    "short_name": "PlanetInt",
+    "description": "We engineer intelligent systems that help humanity understand and navigate planets.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
