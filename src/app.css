@@ -9,7 +9,19 @@
 }
 
 @custom-variant dark (&:where([data-theme=black], [data-theme=black] *));
-/* 
+
+h1 {
+    @apply text-4xl font-bold;
+}
+
+h2 {
+    @apply text-2xl font-bold;
+}
+
+blockquote {
+    @apply italic;
+}
+
 .content h1 {
     @apply text-2xl font-bold;
 }
@@ -36,4 +48,4 @@
 
 .content blockquote {
     @apply border-l-4 border-green-400 pl-4 text-gray-600 dark:text-gray-400;
-} */
+}
