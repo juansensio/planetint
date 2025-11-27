@@ -22,6 +22,10 @@ blockquote {
     @apply italic;
 }
 
+ul {
+    @apply list-disc list-inside;
+}
+
 .content h1 {
     @apply text-2xl font-bold;
 }
