@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+* {
+    font-family: 'Roboto', monospace, system-ui, -apple-system, sans-serif;
+}
+
+@plugin "daisyui" {
+    themes: lofi --default, black --prefersdark;
+}
+
+@custom-variant dark (&:where([data-theme=black], [data-theme=black] *));
+/* 
+.content h1 {
+    @apply text-2xl font-bold;
+}
+
+.content h2 {
+    @apply text-xl font-bold;
+}
+
+.content a {
+    @apply text-green-400;
+}
+
+.content a:hover {
+    @apply underline;
+}
+
+.content ul {
+    @apply list-disc list-inside;
+}
+
+.proximamente {
+    @apply text-center text-2xl font-bold bg-yellow-500 text-black p-4 rounded-md;
+}
+
+.content blockquote {
+    @apply border-l-4 border-green-400 pl-4 text-gray-600 dark:text-gray-400;
+} */
