@@ -1,9 +1,8 @@
 import { fetchPosts } from '$lib/posts.js';
 
 export async function GET() {
-	const [posts, games] = await Promise.all([
+	const [posts] = await Promise.all([
 		fetchPosts(),
-		fetchGames()
 	]);
 
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

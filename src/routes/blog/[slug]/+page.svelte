@@ -19,12 +19,12 @@
         dateModified: `${data.post.meta.date}`,
         author: {
             "@type": "Person",
-            name: "Plantary Intelligence",
+            name: "Planetary Intelligence",
             url: "https://planetint.vercel.app",
         },
         publisher: {
             "@type": "Organization",
-            name: "Plantary Intelligence",
+            name: "Planetary Intelligence",
             logo: {
                 "@type": "ImageObject",
                 url: "https://planetint.vercel.app/logo.png",
@@ -49,14 +49,14 @@
 </script>
 
 <svelte:head>
-    <title>{data.post.meta.title} - Plantary Intelligence | Blog</title>
+    <title>{data.post.meta.title} - Planetary Intelligence | Blog</title>
     <meta name="description" content={data.post.meta.description} />
     <meta
         name="keywords"
         content={data.post.meta.tags?.join(", ") ||
             "artificial intelligence, planetary intelligence, space, science, technology"}
     />
-    <meta name="author" content="Plantary Intelligence" />
+    <meta name="author" content="Planetary Intelligence" />
     <meta name="date" content={data.post.meta.date} />
 
     <!-- Open Graph -->
@@ -72,7 +72,7 @@
         content={`https://planetint.vercel.app${data.post.meta.thumbnail}`}
     />
     <meta property="article:published_time" content={data.post.meta.date} />
-    <meta property="article:author" content="Plantary Intelligence" />
+    <meta property="article:author" content="Planetary Intelligence" />
     {#if data.post.meta.tags}
         {#each data.post.meta.tags as tag}
             <meta property="article:tag" content={tag} />

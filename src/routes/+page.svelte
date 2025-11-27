@@ -14,7 +14,7 @@
         //             "@type": "ListItem",
         //             position: 2,
         //             name: "Recent Posts",
-        //             url: "https://janusnoise.com/blog",
+        //             url: "https://planetint.vercel.app/blog",
         //         },
         //     ],
         // },
@@ -29,7 +29,7 @@
     <title>Planetary Intelligence</title>
     <meta
         name="description"
-        content="Planetary Intelligence. Our mission is to engineer AI-powered planetary intelligence systems that fuse orbital and surface data with simulation to interpret environments, predict dynamics, and inform autonomous and human-led operations across Earth and other worlds."
+        content="Planetary Intelligence. We engineer intelligent systems that help humanity understand and navigate planets."
     />
     <meta
         name="keywords"

@@ -9,12 +9,12 @@
   const ldJson = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    name: "Plantary Intelligence Blog",
-    description: "Plantary Intelligence Blog. Articles, updates and more.",
+    name: "Planetary Intelligence Blog",
+    description: "Planetary Intelligence Blog. Articles, updates and more.",
     url: "https://planetint.vercel.app/blog",
     publisher: {
       "@type": "Organization",
-      name: "Plantary Intelligence",
+      name: "Planetary Intelligence",
       logo: {
         "@type": "ImageObject",
         url: "https://planetint.vercel.app/logo.png",
@@ -28,7 +28,7 @@
       datePublished: post.date,
       author: {
         "@type": "Person",
-        name: "Plantary Intelligence",
+        name: "Planetary Intelligence",
       },
     })),
   };
@@ -39,7 +39,7 @@
 </script>
 
 <svelte:head>
-  <title>Blog - Plantary Intelligence</title>
+  <title>Blog - Planetary Intelligence</title>
   <meta
     name="description"
     content="Discover articles, updates on Planetary Intelligence and more."
@@ -50,7 +50,7 @@
   />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Blog - Plantary Intelligence" />
+  <meta property="og:title" content="Blog - Planetary Intelligence" />
   <meta
     property="og:description"
     content="Discover articles, updates on Planetary Intelligence and more."
@@ -60,7 +60,7 @@
   <meta property="og:image" content="https://planetint.vercel.app/logo.png" />
 
   <!-- Twitter -->
-  <meta property="twitter:title" content="Blog - Plantary Intelligence" />
+  <meta property="twitter:title" content="Blog - Planetary Intelligence" />
   <meta
     property="twitter:description"
     content="Discover articles, updates on Planetary Intelligence and more."
